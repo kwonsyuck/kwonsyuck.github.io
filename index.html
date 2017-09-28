@@ -1,323 +1,190 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-
-		<title>요단강 알차게 건너기</title>
-
-<!-- Meta -->
+<!doctype html>
 <meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />
-<meta name="robots" content="index, follow" />
-<meta name="description" content="a" />
-<meta name="keywords" content="b" />
-<meta name="author" content="c" />
-<meta name="copyright" content="d" />
-
-<!-- Favicon -->
-<link rel="shortcut icon" type="image/x-icon" href="" />
-
-<!-- CSS -->
-<link href="main.css" rel="stylesheet" type="text/css" />
-<link href="css/nivo-slider.css" rel="stylesheet" type="text/css" />
-<link href="css/nivotheme.css" rel="stylesheet" type="text/css" />
-<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
-
-
-<!-- Google Fonts -->
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css' />
-
-<!-- JS -->
-<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
-<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
-<script type="text/javascript" src="js/jquery.quicksand.js"></script>
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
-<!--[if lte IE 7]><script src="lte-ie7.js"></script><![endif]-->
-
-<!--[if IE 9]>
-	<link rel="stylesheet" type="text/css" href="css/ie9.css">
-<![endif]-->
-
+<head>
+<title>GG</title>
 </head>
-
 <body>
+	<canvas id="myCanvas" width="500" height="800"></canvas>
+	<script src="js/jquery-3.2.0.js"></script>
 
-	<!-- Header
-		============================= -->
-	<div id="header">
-        <div class="inner">
-        
-            <!-- Logo -->
-            <h1 class="logo left"><a href="home.html">요단강 알차게 건너기</a></h1><!-- .logo-->
-            
-            <!-- Nav Menu -->
-            <ul class="nav-menu right">
-                <li class="current"><a href="#home">home</a></li>
-                <li><a href="#services">About</a></li>
-                <li><a href="#portfolio">cart</a></li>
-                <li><a href="#about">R.I.P</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul><!-- .nav-menu-->
-        
-        </div><!-- .inner -->
-	</div><!-- #header -->
-	<!-- End Header -->
-    
-    
-	<!-- Slider
-		============================= -->
-	<div id="slider" class="theme-default">
-        <div class="inner">
-        
-        	<div class="nivo-slider nivoSlider">
-                <a href=""><img src="images/slides/singolo-slide1.png" alt="#" /></a>
-                <img src="images/slides/singolo-slide2.png" alt="#" style="width: 100% auto; height:auto;" />
-                <img src="images/slides/singolo-slide3.png" alt="#" style="width: 100% auto; height:auto;" />
-            </div>
-        </div><!-- .inner -->
-	</div><!-- #slider -->
-	<!-- End Slider -->
-    
-    
-	<!-- Services
-		============================= -->
-	<div id="services" style="height:5950px">
+<style>#myCanvas{width:700px;height:700px;}
+</style>
 
-        	<h2>About GOGO!</h2>
-            <ul>
-            	<li>
-                	<span class="li_pen"></span>
-                    <h4>HWANG</h4>
-                    <p>DDDD</p>
-                </li>
-                
-                
-                <li>
-                	<span class="li_bulb"></span>
-                    <h4>PARK</h4>
-                    <p>DDDD</p>
-                </li>
-                
-                
-                <li>
-                	<span class="li_heart"></span>
-                    <h4>LEE</h4>
-                    <p>DDDD.</p>
-                </li>
-                
-                
-                <li>
-                	<span class="li_phone"></span>
-                    <h4>LEE</h4>
-                    <p>DDDD.</p>
-                </li>
-                
-                
-                <li>
-                	<span class="li_bubble"></span>
-                    <h4>KWON</h4>
-                    <p>DDDD.</p>
-                </li>
-            
-             </ul>
-            
-	</div>
-	<!-- End Services -->
-    
-    
-	<!-- Portfolio
-		============================= -->
-	<div id="portfolio">
-        <div class="inner">
-        
-        	<h2>Cart</h2>
-            <h3>좋아하는 물품을 장바구니에 담아보세요.</h3>
-            
-            <!-- Portfolio Menu -->
-            <ul class="portfolio-menu filter">
-            	<li class="current all"><a href="#">All</a></li>
-                <li class="webdesign"><a href="#">Dress</a></li>
-                <li class="graphicdesign"><a href="#">Light</a></li>
-                <li class="artwork"><a href="#">Interior</a></li>
-            </ul><!-- .portfolio-menu -->
-            
-            <!-- Portfolio -->
-            <ul class="portfolio">
-            	<li data-id="id-1" data-type="webdesign">
-                    <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/dress1.png" width="220" height="187" alt="#" />
-                    </a>
-                </li>
-                
-            	<li data-id="id-2" data-type="graphicdesign">
-                    <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/light1.png" width="220" height="187" alt="#" />
-                    </a>
-                </li>
-                
-            	<li data-id="id-3" data-type="webdesign">
-                    <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/dress2.png" width="220" height="187" alt="#" />
-                    </a>
-                </li>
-                
-            	<li data-id="id-4" data-type="artwork">
-                    <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/int2.png" width="220" height="187" alt="#" />
-                    </a>
-                </li>
-                
-            	<li data-id="id-5" data-type="graphicdesign">
-                    <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/light2.png" width="220" height="187" alt="#" />
-                    </a>
-                </li>
-                
-            	<li data-id="id-6" data-type="artwork">
-                    <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/int1.png" width="220" height="187" alt="#" />
-                    </a>
-                </li>
-                
-            	<li data-id="id-7" data-type="webdesign">
-                    <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/dress3.png" width="220" height="187" alt="#" />
-                    </a>
-                </li>
-                
-            	<li data-id="id-8" data-type="graphicdesign">
-                    <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/light3.png" width="220" height="187" alt="#" />
-                    </a>
-                </li>
-                
-            	<li data-id="id-9" data-type="artwork">
-                    <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/int2.png" width="220" height="187" alt="#" />
-                    </a>
-                </li>
-                
-            	<li data-id="id-10" data-type="graphicdesign">
-                    <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/light4.png" width="220" height="187" alt="#" />
-                    </a>
-                </li>
-                
-            	<li data-id="id-11" data-type="webdesign">
-                    <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/dress5.png" width="220" height="187" alt="#" />
-                    </a>
-                </li>
-                
-            	<li data-id="id-12" data-type="artwork">
-                    <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/int1.png" width="220" height="187" alt="#" />
-                    </a>
-                </li>
-                
-            </ul><!-- .portfolio -->
-            
-        </div><!-- .inner -->
-	</div><!-- #portfolio -->
-	<!-- End Portfolio -->
-    
-	<div id="about">
-        <div class="inner">
-        
-        	<!-- Title -->
-        	<h2>R.I.P</h2>
-            
-            <!-- Short Description -->
-            <h3>당신은 이 곳에서 편안하게 잠들고 싶군요.</h3>
-            
-            <!-- Profile -->
-            <ul>
-            	<li>
-                	<img src="images/profile/kwon1.jpg" width="250" height="250" alt="#" />
-                    <h4>오잉</h4>
-                    <p>ㅋㅋ</p>
-                </li>
-                
-            	<li>
-                	<img src="images/profile/kwon2.jpg" width="250" height="250" alt="#" />
-                    <h4>누구</h4>
-                    <p>ㅎㅎ.</p>
-                </li>
-                
-            	<li>
-                	<img src="images/profile/kwon4.jpg" width="250" height="250" alt="#" />
-                    <h4>이옹</h4>
-                    <p>ㄱㄱ</p>
-                </li>
-            </ul><!-- .portfolio-menu -->
-            
-        </div><!-- .inner -->
-    </div><!-- #about -->
-    
-    
-	<!-- Contact
-		============================= -->
-	<div id="contact">
-        <div class="inner">
-        
-        	<!-- Title -->
-        	<h2>Contact</h2>
-            
-            <!-- Short Description -->
-            <h3>무엇이든 물어보세요. 당신의 의견을 기다립니다.</h3>
-            
-            <ul>
-            	<li>
-                	<form action="" method="get">
-                    	
-                        <input name="Name" class="" type="text" value="Name (Required)" onfocus="if(this.value == 'Name (Required)') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Name (Required)'; }" />
-                        
-                        <input name="Email" class="" type="text" value="Email (Required)" onfocus="if(this.value == 'Email (Required)') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Email (Required)'; }" />
-                        
-                        <input name="Subject" class="" type="text" value="Subject" onfocus="if(this.value == 'Subject') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Subject'; }" />
-                        
-                        <textarea name="Detail" cols="" rows="" onfocus="if(this.value == 'Describe your project in detail...') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Describe your project in detail...'; }">Describe your project in detail...</textarea>
-                        
-                        <input type="submit" value="submit" name="subscribe" class="submitbtn" />
-                        
-                    </form>
-                </li>
-                
-                <li>
-                	<h4>Contact GoGo</h4>
-                    <p>인터랙션ㄴㅈㄴㅈ.</p>
-                    
-                    <span><i class="li_location"></i>볼부르크 </span>
-                    <span><i class="icon-phone"></i>010 3492 6626 </span>
-                    <span><i class="icon-mail"></i>ksh86726@gmail.com</span>
-                </li>
-            </ul>
-            
-            
-        </div><!-- .inner -->
-	</div><!-- #contact -->
-	<!-- End Contact -->
-    
-    
-	<!-- Footer
-		============================= -->
-	<div id="footer">
-        <div class="inner">
-        
-        	<p class="left">© Copyright 2017 by <a href="">HKNU DESIGN INTERACTION BUISINESS. ( 본 웹사이트는 한경대학교 졸업전시 프로젝트용 입니다. )</a></p>
-            
-            
-        </div><!-- .inner -->
-	</div><!-- #footer -->
-	<!-- End Footer -->
-    
-    <a href="" class="go-top">Top</a>
-    
+	<script>
+		var canvas=document.querySelector("#myCanvas");
+		var context=canvas.getContext("2d");
+
+		var back1Y=0;
+		var back2Y=-800;
+
+		var backImg=new Image();
+		backImg.src="images/backbg.png";
+
+		var unitImg=new Image();
+		backImg.src="images/backbg.png";
+
+		var unitImg1=new Image();
+		var unitImg2=new Image();
+		unitImg1.src="images/unit1.png";
+		unitImg2.src="images/unit2.png";
+
+		var unitImgs=[unitImg1, unitImg2];
+
+		var unitX=250;
+		var unitY=700;
+
+		var unitIndex=0;
+
+		var count=0;
+
+		var missImg=new Image();
+		missImg.src="images/mi1.png";
+
+		var missList=[];
+
+		var enemyImg1=new Image();
+		var enemyImg2=new Image();
+		enemyImg1.src="images/juck1.png";
+		enemyImg2.src="images/juck2.png";
+
+		var enemyImgs=[enemyImg2, enemyImg1];
+
+		var enemyList=[];
+
+
+		setInterval(function(){
+			count++;
+			context.drawImage(backImg, 0, back1Y, 500, 800);
+			context.drawImage(backImg, 0, back1Y, 500, 800);
+
+		for(var i=0; i<missList.length; i++){
+			
+			var tmp=missList[i];
+			context.drawImage(missImg, tmp.x-40, tmp.y-40, 80, 80);
+		}
+
+		for(var i=0; i<enemyList.length; i++){
+			
+			var tmp=enemyList[i];
+			context.drawImage(enemyImgs[tmp.type], tmp.x-50, tmp.y-50, 80, 80);
+		}
+
+		context.drawImage(unitImgs[unitIndex], unitX-50, unitY-50, 100, 100);
+		backScroll();
+		unitAnimation();
+		makeMissile();
+		moveMissile();
+		checkMissile();
+		makeEnemy();
+		checkEnemy();
+	}, 20);
+
+	function makeEnemy() {
+
+		var ranNum = Math.random() * 200;
+		var result = Math.floor(ranNum);
+		if(result != 10){ return; };
+		var enemyX=[50, 150, 250, 350, 450];
+
+		for(var i=0; i<5; i++){
+			obj={};
+			obj.x=enemyX[i];
+			obj.y= -50;
+
+			var result = Math.floor(Math.random()*2);
+
+			obj.type=result;
+			if(result==0){
+				obj.energy=50;
+			}else if(result==1){
+				obj.energy=100;
+			}
+			obj.isDead=false;
+			enemyList.push(obj);
+		}
+
+	}
+
+	function moveEnemy(){
+		for(var i=0; i<enemyList.length;i++){
+			var tmp=enemyList[1];
+			tmp.y = tmp.y+5;
+			if(tmp.y>=840){
+				tmp.isDead=true;
+			}
+		}
+	}
+
+	function checkEnemy(){
+		for(var i=enemyList.length-1; i>=0;i--){
+			var tmp=enemyList[i];
+			if(tmp.isDead){
+				enemyList.splice(i, 1);
+			}
+		}
+	}
+	$("#myCanvas").on("mousemove", function(e){
+		unitX = e.offsetX;
+	});
+
+	function makeMissile(){
+		if(count%3 !=0){
+			return;
+		}
+		var obj={};
+		obj.x = unitX;
+		obj.y = unitY;
+		obj.isDead = false;
+		missList.push(obj);
+	}
+
+	function moveMissile(){
+		for(var i=0; i<missList.length; i++){
+			var tmp=missList[i];
+			tmp.y = tmp.y-10;
+			if(tmp.y <= -40){
+				tmp.isDead=true;
+			}
+		}
+	}
+
+
+	function checkMissile(){
+		for(var i=missList.length-1; i>=0; i--){
+			var tmp = missList[i];
+			if(tmp.isDead){
+				missList.splice(i, 1);
+
+			}
+		}
+	}
+
+	function unitAnimation(){
+		if(count%8 !=0){
+			return;
+		}
+
+		unitIndex++;
+		if(unitIndex==2){
+			unitIndex=0;
+		}
+	}
+
+	function backScroll(){
+		back1Y += 5;
+		back2Y += 5;
+
+		if(back1Y >= 800){
+			back1Y = -800;
+			back2Y = 0;
+		}
+
+		if(back2Y >= 800){
+			back2Y = -800;
+			back1Y = 0;
+		}
+
+	}
+</script>
 </body>
 </html>
-
-
-
